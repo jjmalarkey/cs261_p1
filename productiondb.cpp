@@ -112,6 +112,14 @@ int monthlyRecord::getResourceAmount(std::string resource) {
 	return totalAmount;
 }
 
+void monthlyRecord::getAll(query * reportQuery) {
+	std::vector<std::pair<std::string, int>> totalExport;
+	for(std::map<std::string, int>::iterator mit = total.begin(); mit != total.end(); mit++) {
+		totalExport.push_back(std::make_pair(mit->first, mit->second));
+	}
+	reportQuery->response.push_back(totalExport);
+}
+
 //yearlyRecord code
 yearlyRecord::yearlyRecord(int initYear) {
 	year = initYear;
@@ -160,6 +168,28 @@ int yearlyRecord::getResourceAmount(std::string resource) {
 
 int yearlyRecord::getYear() {
 	return year;
+}
+
+void yearlyRecord::getAll(query * reportQuery) {
+	std::vector<std::pair<std::string, int>> totalExport;
+	for(std::map< std::string, int>::iterator mit = total.begin(); mit != total.end(); mit++) {
+		totalExport.push_back(std::make_pair(mit->first, mit->second));
+	}
+	reportQuery->response.push_back(totalExport);
+	reportQuery->isTwoD = true;
+	reportQuery->pass = true;
+}
+
+void yearlyRecord::getMonthly(query * reportQuery) {
+	for(int i = 0; i < 12; i++) {
+		intake[i]->getAll(reportQuery);
+	}
+	std::vector<std::pair<std::string, int>> totalExport;
+	for(std::map< std::string, int>::iterator mit = total.begin(); mit != total.end(); mit++) {
+		totalExport.push_back(std::make_pair(mit->first, mit->second));
+	}
+	reportQuery->isTwoD = false;
+	reportQuery->response.push_back(totalExport);
 }
 
 //station code
@@ -214,6 +244,44 @@ std::string station::getName() {
 	return name;
 }
 
+void station::getYearly(query * reportQuery) {
+	std::vector< yearlyRecord*>::iterator it;
+	for(it = intake.begin(); it != intake.end(); it++) {
+		if ((*it)->getYear() == reportQuery->year)
+			break;
+	}
+	if(it != intake.end()) {
+		(*it)->getAll(reportQuery);
+	} else {
+		reportQuery->pass = false;
+	}
+}
+
+void station::getMonthly(query * reportQuery) {
+	std::vector< yearlyRecord*>::iterator it;
+	for(it = intake.begin(); it != intake.end(); it++) {
+		if ((*it)->getYear() == reportQuery->year)
+			break;
+	}
+	if(it != intake.end()) {
+		(*it)->getMonthly(reportQuery);
+	} else {
+		reportQuery->pass = false;
+	}
+}
+
+//query code
+
+query::query(std::string initStation, int initYear, bool resourceDriven) {
+	station = initStation;
+	year = initYear;
+	isResourceDriven = resourceDriven;
+}
+
+query::~query() {
+	response.clear();
+}
+
 //productiondb code
 
 productiondb::productiondb() {
@@ -247,5 +315,31 @@ void productiondb::addData(entry oneEntry) {
 //		}
 //		if (mit-> != stations.begin()
 //		
+	}
+}
+
+int productiondb::getTables(std::vector<std::string> * ptr) {
+	std::map<std::string, station*>::iterator mit;
+	for(mit = stations.begin(); mit != stations.end(); mit++) {
+		ptr->push_back(mit->first);
+	}
+	return 0;
+}
+
+void productiondb::getStationMonthly(query * reportQuery) {
+	std::map<std::string, station*>::iterator mit = stations.find(reportQuery->station);
+	if(mit != stations.end()) {
+		mit->second->getMonthly(reportQuery);
+	} else {
+		reportQuery->pass = false;
+	}
+}
+
+void productiondb::getStationYearly(query * reportQuery) {
+	std::map<std::string, station*>::iterator mit = stations.find(reportQuery->station);
+	if(mit != stations.end()) {
+		mit->second->getYearly(reportQuery);
+	} else {
+		reportQuery->pass = false;
 	}
 }

@@ -1,11 +1,24 @@
 #include <vector>
 #include <map>
 #include <string>
+#include <utility>
 #ifndef ENTRY_H
 #include "entry.h"
+#endif
 //#include <iostream> //remove later!!!
 #ifndef PRODUCTIONDB_H
 #define PRODUCTIONDB_H
+
+struct query { //to attempt to safely convery data to requesting services
+	std::string station;
+	int year;
+	std::vector<std::vector<std::pair<std::string, int>>> response;
+	bool isResourceDriven; //if true, resource will be primary index; else 
+	bool isTwoD; //if false, first element of internal vector is only  element
+	bool pass;
+	query(std::string initStation, int initYear, bool resourceDriven);
+	~query();
+};
 
 class resourceAmount {
 	std::string name;
@@ -36,6 +49,7 @@ class monthlyRecord {
 public:
 	void addResource(entry *oneEntry);
 	int getResourceAmount(std::string resource);
+	void getAll(query * reportQuery);
 	//void updateMonthlyRecord();
 	monthlyRecord();
 	~monthlyRecord();
@@ -49,6 +63,8 @@ public:
 	void addResource(entry *oneEntry);
 	int getResourceAmount(std::string resource);
 	int getYear();
+	void getAll(query * reportQuery);
+	void getMonthly(query * reportQuery);
 	yearlyRecord(int initYear);
 	~yearlyRecord();
 };
@@ -60,6 +76,8 @@ class station {
 public:
 	void addResource(entry *oneEntry);
 	int getResourceAmount(std::string resource);
+	void getYearly(query * reportQuery);
+	void getMonthly(query * reportQuery);
 	std::string getName();
 	station(std::string initName);
 	~station();
@@ -68,10 +86,12 @@ public:
 class productiondb {
 	std::map< std::string, station*> stations;
 public:
+	int getTables(std::vector<std::string> * ptr);
 	void addData(entry oneEntry);
+	void getStationMonthly(query * reportQuery);
+	void getStationYearly(query * reportQuery);
 	productiondb();
 	~productiondb();
 };
 
-#endif
 #endif

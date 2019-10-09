@@ -3,7 +3,7 @@
 #include <string>
 #include "productiondb.h"
 #include "entry.h"
-//#include "reporter.h"
+#include "reporter.h"
 
 using namespace std;
 
@@ -42,8 +42,8 @@ int main(int argc,char* argv[])
     }
 
     // Output the report
-	/*
-    reporter reporter(db);
+
+	reporter reporter(db);
     for (int year = 2045; year <= 2047; year++) {
 	reporter.printFullReport(year);
     }
@@ -51,7 +51,7 @@ int main(int argc,char* argv[])
     for (int year = 2045; year <= 2047; year++) {
 	reporter.printStationReport(year);
     }
-	*/
+	
     return(0);
 }
 
