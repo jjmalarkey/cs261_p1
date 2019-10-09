@@ -182,7 +182,13 @@ void yearlyRecord::getAll(query * reportQuery) {
 
 void yearlyRecord::getMonthly(query * reportQuery) {
 	for(int i = 0; i < 12; i++) {
-		intake[i]->getAll(reportQuery);
+		if (intake[i] != NULL)
+			intake[i]->getAll(reportQuery);
+		else { // if no data for the month, insert an empty row
+			std::vector<std::pair<std::string, int>> totalExport;
+			totalExport.push_back(std::make_pair("EMPTY_MONTH", i));
+			reportQuery->response.push_back(totalExport);
+		}
 	}
 	std::vector<std::pair<std::string, int>> totalExport;
 	for(std::map< std::string, int>::iterator mit = total.begin(); mit != total.end(); mit++) {

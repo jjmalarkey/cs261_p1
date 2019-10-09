@@ -30,7 +30,7 @@ void reporter::printFullReport(int year) {
 		//call get yearly station data func
 		query reportQuery(*it, year, true);
 		connection->getStationMonthly(&reportQuery);
-		//std::cout << reportQuery.response.size() << std::endl;
+		std::cout << reportQuery.response.size() << std::endl;
 	}
 }
 
