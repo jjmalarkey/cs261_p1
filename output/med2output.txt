@@ -1,0 +1,126 @@
+*******2045*******
+
+Station: Alabama
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: BonJovi
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Boston
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Chicago
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Journey
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Kansas
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Survivor
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+*******2046*******
+
+Station: Alabama
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: BonJovi
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Boston
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Chicago
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Journey
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Kansas
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Survivor
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+*******2047*******
+
+Station: Alabama
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: BonJovi
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Boston
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Chicago
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Journey
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Kansas
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+Station: Survivor
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+
+       
+*******2045*******
+               Alabama    BonJovi     Boston    Chicago    Journey     Kansas   Survivor
+chloride          7415      16768      11854      12061      10406       3061       4098
+iron              9863      24195       5252      10892      16797       6890       5436
+magnesium         8506      15040      17510      18441      16357       6946       5356
+potassium         8127      12264      14017      11300      14567       9030       4536
+silicon          11079      26548      12994       7561      13488       5229       4137
+sodium            7025      11554      11243       8923      12118       9507       5061
+water             6005      10656       7086      10978      16324      10931       6124
+      Total      58020     117025      79956      80156     100057      51594      34748
+
+          
+*******2046*******
+               Alabama    BonJovi     Boston    Chicago    Journey     Kansas   Survivor
+chloride         10438      12043      11771       8185      11619      10033      10708
+iron              8535      21721       6705      10177      11460      13052       7061
+magnesium         9592      16514       9306      13957      18912      11699      11780
+potassium        14934       9895      14172      10966      11979       5768      11252
+silicon          11999      28778      15799      11663      12975       9225      13558
+sodium           14478      13026      11542      11642      14925       9721       6105
+water             5858      15140       6947       8961      10902      16937      10648
+      Total      75834     117117      76242      75551      92772      76435      71112
+
+          
+*******2047*******
+               Alabama    BonJovi     Boston    Chicago    Journey     Kansas   Survivor
+chloride          9001      11183       9531      11964      14560       7940      21611
+iron              8474      31674      11584      11289      19813       7589       8216
+magnesium        12599      26308       8001      11687      17277       5326      11203
+potassium         9400       9316      18679      11846      14722      10277      14889
+silicon          10117      22873      14089      11359      11768      11007      11803
+sodium            9230      11354      14002       9676      14060      10517      15931
+water            10198      10089       7576       7789      15278       8272      15330
+      Total      69019     122797      83462      75610     107478      60928      98983
+

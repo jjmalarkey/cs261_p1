@@ -113,9 +113,10 @@ int monthlyRecord::getResourceAmount(std::string resource) {
 }
 
 void monthlyRecord::getAll(query * reportQuery) {
-	std::vector<std::pair<std::string, int>> totalExport;
+	std::map<std::string, int> totalExport;
 	for(std::map<std::string, int>::iterator mit = total.begin(); mit != total.end(); mit++) {
-		totalExport.push_back(std::make_pair(mit->first, mit->second));
+		totalExport[mit->first] = mit->second;
+		//totalExport.push_back(std::make_pair(mit->first, mit->second));
 	}
 	reportQuery->response.push_back(totalExport);
 }
@@ -171,12 +172,12 @@ int yearlyRecord::getYear() {
 }
 
 void yearlyRecord::getAll(query * reportQuery) {
-	std::vector<std::pair<std::string, int>> totalExport;
+	std::map<std::string, int> totalExport;
 	for(std::map< std::string, int>::iterator mit = total.begin(); mit != total.end(); mit++) {
-		totalExport.push_back(std::make_pair(mit->first, mit->second));
+		totalExport[mit->first] = mit->second;
+		//totalExport.push_back((mit->first, mit->second));
 	}
 	reportQuery->response.push_back(totalExport);
-	reportQuery->isTwoD = true;
 	reportQuery->pass = true;
 }
 
@@ -185,16 +186,20 @@ void yearlyRecord::getMonthly(query * reportQuery) {
 		if (intake[i] != NULL)
 			intake[i]->getAll(reportQuery);
 		else { // if no data for the month, insert an empty row
-			std::vector<std::pair<std::string, int>> totalExport;
-			totalExport.push_back(std::make_pair("EMPTY_MONTH", i));
+			std::map<std::string, int> totalExport;
+			totalExport["EMPTY"] = i;
 			reportQuery->response.push_back(totalExport);
 		}
 	}
-	std::vector<std::pair<std::string, int>> totalExport;
+	std::map<std::string, int> totalExport;
 	for(std::map< std::string, int>::iterator mit = total.begin(); mit != total.end(); mit++) {
-		totalExport.push_back(std::make_pair(mit->first, mit->second));
+		totalExport[mit->first] = mit->second;
+		for(int i = 0; i < 12; i++) {
+			if(reportQuery->response[i].find(mit->first) == reportQuery->response[i].end()) {
+				reportQuery->response[i][mit->first] = 0;
+			}
+		}
 	}
-	reportQuery->isTwoD = false;
 	reportQuery->response.push_back(totalExport);
 }
 
@@ -278,10 +283,9 @@ void station::getMonthly(query * reportQuery) {
 
 //query code
 
-query::query(std::string initStation, int initYear, bool resourceDriven) {
+query::query(std::string initStation, int initYear) {
 	station = initStation;
 	year = initYear;
-	isResourceDriven = resourceDriven;
 }
 
 query::~query() {

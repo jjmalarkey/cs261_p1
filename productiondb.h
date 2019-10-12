@@ -1,4 +1,4 @@
-#include <vector>
+#include <vector> 
 #include <map>
 #include <string>
 #include <utility>
@@ -12,11 +12,9 @@
 struct query { //to attempt to safely convery data to requesting services
 	std::string station;
 	int year;
-	std::vector<std::vector<std::pair<std::string, int>>> response;
-	bool isResourceDriven; //if true, resource will be primary index; else 
-	bool isTwoD; //if false, first element of internal vector is only  element
+	std::vector<std::map<std::string, int>> response;
 	bool pass;
-	query(std::string initStation, int initYear, bool resourceDriven);
+	query(std::string initStation, int initYear);
 	~query();
 };
 

@@ -1,0 +1,270 @@
+*******2045*******
+
+Station: Alabama
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride        677       0     691       0       0       0       0       0       0       0     243       0    1611
+iron            187     422       0       0       0       0     605       0     597       0       0       0    1811
+magnesium         0       0       0       0       0       0     592     600       0     340       0       0    1532
+potassium         0      70       0       0     267       0       0       0       0       0       0       0     337
+silicon           0       0     107       0       0       0       0       0     692     295       0       0    1094
+sodium          446     420       0       0       0       0       0       0     430       0       0     139    1435
+water             0       0       0       0       0       0       0       0       0       0     425     389     814
+
+
+Station: BonJovi
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0     949       0       0       0       0      64       0       0       0    1013
+iron           1941       0       0       0       0     869       0    1532       0       0       0       0    4342
+magnesium         0     478       0       0       0    1026       0    1931     764       0       0     733    4932
+silicon           0       0       0       0    1603       0       0       0     228     531       0       0    2362
+sodium            0       0       0     456     434     577       0       0       0       0       0       0    1467
+
+
+Station: Boston
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0       0     748       0       0       0       0       0       0       0     748
+iron            326      57       0       0     917       0       0       0       0       0       0       0    1300
+magnesium         0     521     398       0       0       0       0       0       0       0     719     681    2319
+potassium         0       0      81       0       0       0       0       0      74       0       0       0     155
+water             0       0       0     202       0       0       0       0       0       0       0       0     202
+
+
+Station: Chicago
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0       0       0     423     502       0       0       0       0      10     935
+iron              0       0     306       0       0       0       0       0       0       0       0     556     862
+magnesium       974     125       0       0       0     211     204     280       0       0       0       0    1794
+potassium       746       0       0       0       0       0       0       0     407       0       0       0    1153
+silicon           0     815       0       0       0       0       0       0       0       0       0       0     815
+sodium            0       0       0       0     637       0       0       0       0       0       0       0     637
+water             0       0       0       0       0       0     605       0       0       0       0       0     605
+
+
+Station: Journey
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0      73       0       0      15       0     250       0       0       0       0     338
+iron              0       0     899     192     193       0      43       0       0       0    1171       0    2498
+magnesium         0       0       0       0       0       0       0       0       0       0       0     109     109
+potassium      1074       0       0       0       0       0       0     165       0     832       0       0    2071
+silicon           0       0       0       0       0      74      27       0       0       0     890       0     991
+sodium            0     738     399       0       0       0       0       0       0       0       0       0    1137
+water             0       0     475       0      36       0       0       0       0       0       0      27     538
+
+
+Station: Kansas
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0     373     312       0       0       0       0     906       0       0    1591
+iron              0       0       0       0       0      70       0       0       0       0       0       0      70
+magnesium         0       0       0       0       0       0       0      56       0     455       0       0     511
+potassium         0       0       0     264       0       0      65       0       0       0       0       0     329
+silicon         968       0       0       0       0       0       0       0       0       0       0       0     968
+sodium          290       0       0       0       0      40       0       0       0     717       0     114    1161
+water             0       0       0       0       0       0       0      83       0       0       0       0      83
+
+
+Station: Survivor
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0     274      38     194       0       0       0       0       4       0       0       0     510
+iron              0       0       0       0       0       0       0       0       0      81       0       0      81
+potassium         0       0       0     251       0       0       0       0       0       0       0       0     251
+silicon           0       0       0     300       0       0      83       0       0       0       0     170     553
+sodium            0       0       0       0       0     249       0       0     103      69       0       0     421
+water             0       0       0       0       0       0       0     295       0       0     391       0     686
+
+*******2046*******
+
+Station: Alabama
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0      98       0       0       0       0       0       0     492       0     486    1076
+potassium         0     378       0     208     464       0       0       0       0       0       0     675    1725
+silicon           0       0       0       0     449       0       0       0       0       0       0       0     449
+sodium            0     877       0       0       0       0       0       0     324       0       0     422    1623
+water             0       0       0       0       0       0     685       0       0       0       0     399    1084
+
+
+Station: BonJovi
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0       0       0       0     712       0     535       0       0       0    1247
+iron           2202       0       0       0       0     699       0       0       0       0       0       0    2901
+magnesium         0       0       0     392       0       0       0       0       0       0       0    1340    1732
+potassium       338       0       0       0       0       0       0      71       0       0    1106       0    1515
+silicon        1058       0    1943       0       0       0       0       0       0       0       0       0    3001
+sodium            0       0       0       0     716       0       0       0       0       0       0       0     716
+water             0     534       0       0       0       0       0       0       0       0     935       0    1469
+
+
+Station: Boston
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0     485       0       0       0       0       0       0       0       0       0     485
+iron              0       0       0       0       0       0       0     153       0       0       0       0     153
+magnesium         0       0       0       0       0       0       0       0       0     360       0       0     360
+potassium         0       0       0       0      79       0       0    2052       0     141       0       0    2272
+silicon           0       0       0       0       0       0       0       0     869       0       0       0     869
+sodium            0     684       0       0       0       0       0       0       0       0       0       0     684
+water             0     200       0     454      38       0       0       0       0       0     296       0     988
+
+
+Station: Chicago
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0     299      83     324       0       0       0     919       0       0    1625
+iron              0       0       0       0       0       0       0       0     220     198       0       0     418
+magnesium         0       0       0      79       0       0     531     236       0       0       0       0     846
+potassium         0       0       0       0       0     707       0       0       0     130       0      64     901
+silicon           0       0       0       0     385       0     780       0    1577     380       0       0    3122
+sodium            0       0       0       0       0       0       0       0       0     817       0       0     817
+water             0     272     134       0       0       0     665       0       0       0       0     467    1538
+
+
+Station: Journey
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+magnesium         0       0       0     635       0       0       0       0       0       0       0       0     635
+potassium         0       0     807       0       0     102     178       0       0       0       0       0    1087
+silicon           0       0       0       0     444       0     828     111    1098     124     343       0    2948
+sodium          685       0       0       0       0       0       0       0       0       0       0       0     685
+water             0       0     851       0       0      97       0       0       0       0       0       0     948
+
+
+Station: Kansas
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0     720       0      41      63       0       0       0       0       0     824
+iron           1017       0       0       0       0       0       0       0       0       0      90       0    1107
+potassium         0       0       0     546     214       0       0      91       0       0       0      39     890
+silicon         977       0       0     306       0       0       0       0       0       0       0       0    1283
+sodium            0     851       0       0     273      50       0       0       0       0     839       0    2013
+water             0       0     854       0       0       0       0       0       0       0       0     962    1816
+
+
+Station: Survivor
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0       0       0     427       0       0       0       0       0       0     427
+iron            485       0       0       0       0       0       0    1079    1467       0       0       0    3031
+magnesium         0       0    1597       0       0       0       0       0       0       0     891       0    2488
+silicon           0       0     909       0       0       0       0       0       0       0     411       0    1320
+sodium            0       0       0       0       0     752       0       0       0       0       0       0     752
+water             0       0       0       0       0     830       0       0       0       2       0     859    1691
+
+*******2047*******
+
+Station: Alabama
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0      71       0       0       0       0       0       0       0       0       0       0      71
+iron              0     594       0       0       0       0       0     184       0       0       0       0     778
+magnesium         0       0     607     639       0       0       0       0       0       0     541       0    1787
+silicon         437       0       0       0       0     410       0       0       0       0       0       0     847
+sodium         1444       0       0     704     467       0       0       0       0       0       0       0    2615
+water             0       0     571      60     718       0    1093       0     226       0       0     211    2879
+
+
+Station: BonJovi
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+iron              0    1696       0    1634       0       0       0      95       0       0       0       0    3425
+magnesium         0       0    1840       0       0     419       0       0       0       0    1771       0    4030
+sodium            0       0       0       0     920     238       0       0       0       0     361     888    2407
+water             0       0     180       0       0       0       0     153       0       0     909       0    1242
+
+
+Station: Boston
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0       0     243       0       0       0       0       0       0     913    1156
+iron              0     114       0       0       0       0       0       0     456       0       0       0     570
+magnesium      1690       0       0       0     981       0       0       0       0     534       0     621    3826
+potassium         0       0       0       0       0       0       0       0       0       0     378       0     378
+silicon         628       0     310     705       0       0       0       0       0       0      94       0    1737
+sodium            0       0       0       0       0       0       0     255       0       0       0       0     255
+water             0       0       0       0     316       0       0       0     200       0       0       0     516
+
+
+Station: Chicago
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0       0       0       0       0     687       0       0     752       0       0    1439
+iron              0       0       0       0       0       0       0       0       0       0     753    1750    2503
+magnesium         0       0       0     565       0       0       0       0       0       0       0       0     565
+potassium        44     848       0       0       0       0     327       0       0       0       0       0    1219
+silicon           0       0       0       0       0       0       0     437     133     696       0       0    1266
+sodium            0       0       0      13       0       0       0       0     567       0       0       0     580
+water             0     504       0       0     724       0       0       0       0       0       0       0    1228
+
+
+Station: Journey
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0     862       0       0       0     573       0       0       0       0       0       0    1435
+iron              0     593       0       0       0    1188       0       0    2001    1006       0     726    5514
+magnesium         0       0       0       0     709       0       0       0       0       0       0      75     784
+potassium         0       0     695       0       0       0       0       0       0     291       0       0     986
+silicon           0       0       0       0       0     507     975       0       0       0     814       0    2296
+sodium           28       0      29       0       0       0     952     388       0       0       0       0    1397
+water             0       0     892       0     866       0       0       0       0       0       0       0    1758
+
+
+Station: Kansas
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0       0     624       0       0       0      24       0       0       0       0       0     648
+iron              0       0       0       0       0       0       0       0     146     135       0       0     281
+magnesium       140       0       0     501       0       0       0       0       0     771     532       0    1944
+potassium         0       0       0       0       0      66       0      89       0       0       0       0     155
+silicon           0       0       0       0       0       0      91       0       0       0       0       0      91
+sodium            0       0       0       0       0      92       0       0       0     865       0       0     957
+water             0       0       0       0       0      63       0       0       0       0     759       0     822
+
+
+Station: Survivor
+
+                Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Tot
+chloride          0     201       0       0       0       0     980      94       0    1172       0     891    3338
+potassium       738       0       0       0       0       0       0       0       0       0       0       0     738
+silicon           0       0       0     124       0       0       0       0       0       0       0       0     124
+water             0       0     814       0      39       0       0    1044       0       0       0       0    1897
+
+*******2045*******
+               Alabama    BonJovi     Boston    Chicago    Journey     Kansas   Survivor
+chloride          1611       1013        748        935        338       1591        510
+iron              1811       4342       1300        862       2498         70         81
+magnesium         1532       4932       2319       1794        109        511          0
+potassium          337          0        155       1153       2071        329        251
+silicon           1094       2362          0        815        991        968        553
+sodium            1435       1467          0        637       1137       1161        421
+water              814          0        202        605        538         83        686
+      Total       8634      14116       4724       6801       7682       4713       2502
+
+*******2046*******
+               Alabama    BonJovi     Boston    Chicago    Journey     Kansas   Survivor
+chloride          1076       1247        485       1625          0        824        427
+iron                 0       2901        153        418          0       1107       3031
+magnesium            0       1732        360        846        635          0       2488
+potassium         1725       1515       2272        901       1087        890          0
+silicon            449       3001        869       3122       2948       1283       1320
+sodium            1623        716        684        817        685       2013        752
+water             1084       1469        988       1538        948       1816       1691
+      Total       5957      12581       5811       9267       6303       7933       9709
+
+*******2047*******
+               Alabama    BonJovi     Boston    Chicago    Journey     Kansas   Survivor
+chloride            71          0       1156       1439       1435        648       3338
+iron               778       3425        570       2503       5514        281          0
+magnesium         1787       4030       3826        565        784       1944          0
+potassium            0          0        378       1219        986        155        738
+silicon            847          0       1737       1266       2296         91        124
+sodium            2615       2407        255        580       1397        957          0
+water             2879       1242        516       1228       1758        822       1897
+      Total       8977      11104       8438       8800      14170       4898       6097
+
