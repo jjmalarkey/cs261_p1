@@ -1,6 +1,6 @@
 #include "reporter.h"
 #include <iostream>
-//#include <iomanip>
+#include <iomanip>
 #include <string>
 #include <utility>
 
@@ -12,9 +12,7 @@ reporter::reporter(productiondb &db) { //the only constructor because without a 
 	db.getTables(&stationList);
 }
 
-reporter::~reporter() {
-	stationList.clear();
-	connection = NULL;
+reporter::~reporter() { stationList.clear(); connection = NULL;
 }
 
 void reporter::prettyPrintFull(query * reportQuery) {
@@ -27,10 +25,20 @@ void reporter::prettyPrintFull(query * reportQuery) {
 		std::cout << std::right << calendar[i];
 		std::cout.width(8);
 	}
-	std::cout << std::endl;
+	std::cout << std::endl << std::left;
+	std::map<std::string, int>::iterator dataPtr;
 	//table body:
-	//remember to check for empty month columns!
-	//because the resources are elements of each inner row, iterate on inner indexes on an oputer loop structure
+	for(std::map<std::string, int>::iterator resIt = reportQuery->response[12].begin(); resIt != reportQuery->response[12].end(); resIt++) {
+		std::cout << std::left;
+		std::cout.width(11);
+		std::cout << resIt->first;
+		for(std::vector<std::map<std::string, int>>::iterator station = reportQuery->response.begin(); station != reportQuery->response.end(); station++) {
+			dataPtr = station->find(resIt->first);
+			std::cout.width(8);
+			std::cout << std::right << dataPtr->second;
+		}
+		std::cout << std::endl;
+	}
 	std::cout << std::endl;
 }
 
